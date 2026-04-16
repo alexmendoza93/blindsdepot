@@ -3,56 +3,88 @@ export default function ContactSection() {
     <section className="bg-surface py-40 px-12 grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-outline-variant/5">
       <div className="p-12 md:p-24 border-r border-outline-variant/10">
         <h2 className="font-serif text-5xl text-white mb-16">Consultar</h2>
-        <form className="space-y-12">
-          <div className="relative">
-            <input 
-              className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all" 
-              placeholder="NOMBRE" 
-              type="text" 
-            />
+        <div className="space-y-12">
+          {/* Address Block */}
+          <div className="bg-[#161512]/50 border border-white/5 p-8 backdrop-blur-sm">
+            <h4 className="font-sans text-[10px] tracking-widest text-[#b8a27d] uppercase font-bold mb-4 flex items-center gap-3">
+              <span className="material-symbols-outlined text-sm">location_on</span>
+              Dirección
+            </h4>
+            <p className="font-sans text-sm text-gray-300 leading-relaxed">
+              Calle Garibaldi #1469 -A<br />
+              Guadalajara, Jalisco
+            </p>
           </div>
-          <div className="relative">
-            <input 
-              className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all" 
-              placeholder="CORREO" 
-              type="email" 
-            />
+
+          {/* Hours Block */}
+          <div className="bg-[#161512]/50 border border-white/5 p-8 backdrop-blur-sm">
+            <h4 className="font-sans text-[10px] tracking-widest text-[#b8a27d] uppercase font-bold mb-4 flex items-center gap-3">
+              <span className="material-symbols-outlined text-sm">schedule</span>
+              Horarios
+            </h4>
+            <div className="space-y-2">
+              <p className="font-sans text-sm text-gray-300 flex justify-between">
+                <span>Lunes a Viernes</span>
+                <span className="text-white">9:30 am - 6:30 pm</span>
+              </p>
+              <p className="font-sans text-sm text-gray-300 flex justify-between">
+                <span>Sábados</span>
+                <span className="text-white">9:30 am - 2:30 pm</span>
+              </p>
+              <p className="font-sans text-sm text-gray-300 flex justify-between">
+                <span>Domingos</span>
+                <span className="text-white/50">Cerrado</span>
+              </p>
+            </div>
           </div>
-          <div className="relative">
-            <input 
-              className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all" 
-              placeholder="TELÉFONO" 
-              type="tel" 
-            />
+
+          {/* Contact Block */}
+          <div className="bg-[#161512]/50 border border-white/5 p-8 backdrop-blur-sm">
+            <h4 className="font-sans text-[10px] tracking-widest text-[#b8a27d] uppercase font-bold mb-4 flex items-center gap-3">
+              <span className="material-symbols-outlined text-sm">contact_support</span>
+              Contacto
+            </h4>
+            <div className="space-y-4">
+              <p className="font-sans text-sm text-gray-300 flex flex-col gap-1">
+                <span className="text-[10px] uppercase tracking-widest text-gray-500">Teléfono</span>
+                <a href="tel:3347119420" className="text-white hover:text-[#b8a27d] transition-colors">3347119420</a>
+              </p>
+              <p className="font-sans text-sm text-gray-300 flex flex-col gap-1">
+                <span className="text-[10px] uppercase tracking-widest text-gray-500">WhatsApp</span>
+                <span className="text-white">
+                  <a href="https://wa.me/523325808191" className="hover:text-[#b8a27d] transition-colors">3325808191</a> / <a href="https://wa.me/523318241919" className="hover:text-[#b8a27d] transition-colors">3318241919</a>
+                </span>
+              </p>
+              <p className="font-sans text-sm text-gray-300 flex flex-col gap-1">
+                <span className="text-[10px] uppercase tracking-widest text-gray-500">Redes Sociales</span>
+                <span className="text-white">
+                  Búscanos en FB o IG como <span className="font-bold text-[#b8a27d] pb-0.5 border-b border-[#b8a27d]/30">blinds depot</span>
+                </span>
+              </p>
+            </div>
           </div>
-          <div className="relative">
-            <textarea 
-              className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all resize-none" 
-              placeholder="MENSAJE" 
-              rows={4}
-            ></textarea>
-          </div>
-          <button className="w-full bg-on-surface text-surface py-6 font-sans font-bold tracking-widest uppercase text-xs hover:bg-secondary transition-colors">
-            Enviar Consulta
-          </button>
-        </form>
+        </div>
       </div>
-      <div className="h-[600px] md:h-auto grayscale contrast-125">
-        <div className="w-full h-full bg-surface-container-highest relative flex items-center justify-center overflow-hidden">
-          {/* Placeholder for Map */}
-          <div className="absolute inset-0 opacity-40">
-            <img 
-              alt="Map" 
-              className="w-full h-full object-cover" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAZh4RKBnwKru9VV86lTX_MJzEA9P0Og96oP58LILOpi9kW_sh2sXEXcEKwAvUNgqggfCtvUWER4jQ0iKn5NcSnU8sL5VnBdcaaPydlkgeIi9Nlr-7dCVx8ILxb5uIn5ZBAfT3BhJXlDkz5pHSG1XCrg5j14pRopQGHYn44J31ygSUlLEaILlXcAytj8sNUVpQy2KibMDArq9yXOYMiL3DBXANhzvn1SWpKOKTk6R7EIaNe6n3cZQeSCLnAclfZv_jIs-7CBBGf7ex"
-            />
+      <div className="h-[600px] md:h-auto">
+        <div className="w-full h-full bg-surface-container-highest relative flex flex-col items-center overflow-hidden">
+          {/* Interactive Google Map - GH Pages & SEO Friendly (No API Key required) */}
+          <div className="absolute inset-0 w-full h-full z-0">
+            <iframe 
+              title="Showroom Blinds Depot"
+              src="https://maps.google.com/maps?q=Calle%20Garibaldi%201469%20A,%20Guadalajara,%20Jalisco&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              className="w-full h-full border-0"
+              allowFullScreen={false} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div className="relative z-10 bg-surface/90 backdrop-blur-md p-10 border border-white/5 text-center">
-            <h5 className="font-serif text-xl text-white mb-4">Estudio en Londres</h5>
-            <p className="font-sans text-[10px] tracking-widest text-on-surface-variant leading-loose uppercase">
-              22 Mayfair Street<br />
-              London, W1J 8HT<br />
-              +44 20 7946 0123
+          {/* Info Overlay */}
+          <div className="relative z-10 bg-[#161512]/80 backdrop-blur-md p-10 border border-[#b8a27d]/20 text-center pointer-events-none mt-auto mb-12 mx-8 shadow-2xl">
+            <h5 className="font-serif text-2xl text-[#b8a27d] mb-4 tracking-wide font-light">Showroom Blinds Depot</h5>
+            <p className="font-sans text-[11px] tracking-[0.2em] text-[#d4c4a8] leading-loose uppercase font-medium">
+              Calle Garibaldi #1469 -A<br />
+              Lunes a Viernes: 9:30am - 6:30pm<br />
+              Sábados: 9:30am - 2:30pm
             </p>
           </div>
         </div>
