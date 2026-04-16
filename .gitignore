@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+#skills md
+*.md
+
 # production
 /build
 
