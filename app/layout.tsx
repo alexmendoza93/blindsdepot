@@ -15,8 +15,8 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Blinds Depot | Luxury Window Treatments",
-  description: "Bespoke window treatments, crafted for the modern sanctuary. Experience architectural precision and timeless elegance.",
+  title: "Blinds Depot | Cubrimientos de Ventanas de Lujo",
+  description: "Cubrimientos de ventanas a medida, creados para el santuario moderno. Experimente precisión arquitectónica y elegancia atemporal.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${notoSerif.variable} ${workSans.variable} dark antialiased`}
     >
       <head>

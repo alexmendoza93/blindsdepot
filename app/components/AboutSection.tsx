@@ -3,13 +3,13 @@ export default function AboutSection() {
     <section className="bg-surface py-32 px-12 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
       <div className="order-2 md:order-1">
         <h2 className="font-serif text-5xl md:text-6xl text-white mb-10 leading-tight">
-          Refined Quality, <br /> Timeless Design.
+          Calidad Refinada, <br /> Diseño Atemporal.
         </h2>
         <p className="font-sans text-on-surface-variant text-lg leading-relaxed mb-12 max-w-md">
-          At Blinds Depot, we view window treatments as the final architectural layer. Each piece is meticulously crafted to modulate atmosphere, providing precision control over privacy and the soft diffusion of light.
+          En Blinds Depot, vemos el cubrimiento de ventanas como la capa arquitectónica final. Cada pieza es meticulosamente elaborada para modular la atmósfera, proporcionando un control preciso sobre la privacidad y la suave difusión de la luz.
         </p>
         <a className="inline-block font-sans text-secondary tracking-widest uppercase text-xs border-b border-secondary/30 pb-2 hover:border-secondary transition-all" href="#">
-          Our Craftsmanship
+          Nuestra Artesanía
         </a>
       </div>
       <div className="order-1 md:order-2 h-[600px]">

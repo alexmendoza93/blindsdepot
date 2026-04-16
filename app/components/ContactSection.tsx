@@ -2,38 +2,38 @@ export default function ContactSection() {
   return (
     <section className="bg-surface py-40 px-12 grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-outline-variant/5">
       <div className="p-12 md:p-24 border-r border-outline-variant/10">
-        <h2 className="font-serif text-5xl text-white mb-16">Inquire</h2>
+        <h2 className="font-serif text-5xl text-white mb-16">Consultar</h2>
         <form className="space-y-12">
           <div className="relative">
             <input 
               className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all" 
-              placeholder="NAME" 
+              placeholder="NOMBRE" 
               type="text" 
             />
           </div>
           <div className="relative">
             <input 
               className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all" 
-              placeholder="EMAIL" 
+              placeholder="CORREO" 
               type="email" 
             />
           </div>
           <div className="relative">
             <input 
               className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all" 
-              placeholder="PHONE" 
+              placeholder="TELÉFONO" 
               type="tel" 
             />
           </div>
           <div className="relative">
             <textarea 
               className="w-full bg-transparent border-t-0 border-x-0 border-b border-outline-variant/20 py-4 focus:border-secondary focus:ring-0 font-sans text-xs tracking-widest text-white placeholder-outline transition-all resize-none" 
-              placeholder="MESSAGE" 
+              placeholder="MENSAJE" 
               rows={4}
             ></textarea>
           </div>
           <button className="w-full bg-on-surface text-surface py-6 font-sans font-bold tracking-widest uppercase text-xs hover:bg-secondary transition-colors">
-            Send Inquiry
+            Enviar Consulta
           </button>
         </form>
       </div>
@@ -48,7 +48,7 @@ export default function ContactSection() {
             />
           </div>
           <div className="relative z-10 bg-surface/90 backdrop-blur-md p-10 border border-white/5 text-center">
-            <h5 className="font-serif text-xl text-white mb-4">London Studio</h5>
+            <h5 className="font-serif text-xl text-white mb-4">Estudio en Londres</h5>
             <p className="font-sans text-[10px] tracking-widest text-on-surface-variant leading-loose uppercase">
               22 Mayfair Street<br />
               London, W1J 8HT<br />
