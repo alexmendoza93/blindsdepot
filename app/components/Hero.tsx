@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react";
 
 const HERO_IMAGES = [
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAma9Piz55DHFHnOTztvungmXKMbhVS76mV9TjC34Cn7-JOssUKilCz_w51_V5fiHWtTwOjlW4PQtklZUqI1fzJ0QM0J5roguXr7Xkv1IHEa8RDGvcR12QP80wezWFQonRpejun1hgapjf90rSm-tSjGcbnBQ9dIjsonWn6N6OD5czx0G3bVH2VMhDorpCzaBrllQ7yEbf7anncNsjfZ6xwOglD1uR_Z3juALnwNshBIIywU-axnpD8kvVbBFkJPdxI-Lu2nqyrO0pm",
-  "https://images.unsplash.com/photo-1544457070-4cd773b4d71e?q=80&w=2560&auto=format&fit=crop", 
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2560&auto=format&fit=crop", 
-  "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=2560&auto=format&fit=crop", 
-  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2560&auto=format&fit=crop"
+  "https://images.pexels.com/photos/10114997/pexels-photo-10114997.jpeg",
+  "https://images.pexels.com/photos/34277709/pexels-photo-34277709.jpeg",
+  "https://images.pexels.com/photos/15860802/pexels-photo-15860802.jpeg",
+  "https://images.pexels.com/photos/34538282/pexels-photo-34538282.jpeg",
+  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2560&auto=format&fit=crop",
 ];
 
 export default function Hero() {
@@ -25,12 +25,12 @@ export default function Hero() {
       {/* Background Images Slider */}
       <div className="absolute inset-0 z-0 bg-black">
         {HERO_IMAGES.map((src, idx) => (
-          <img 
+          <img
             key={idx}
-            alt={`Interior design ${idx + 1}`} 
-            className={`absolute inset-0 w-full h-full object-cover brightness-50 transition-opacity duration-1000 ease-in-out ${
+            alt={`Interior design ${idx + 1}`}
+            className={`absolute inset-0 w-full h-full object-cover brightness-75 transition-opacity duration-1000 ease-in-out ${
               idx === activeIndex ? "opacity-100" : "opacity-0"
-            }`} 
+            }`}
             src={src}
           />
         ))}

@@ -1,6 +1,6 @@
 export default function CollectionsSection() {
   return (
-    <section className="bg-surface-container-low py-40 px-12">
+    <section id="collections" className="bg-surface-container-low py-40 px-12">
       <div className="mb-20 text-center">
         <span className="font-sans text-secondary tracking-[0.3em] uppercase text-[10px] mb-4 block">Selección</span>
         <h2 className="font-serif text-5xl text-white">Colecciones Curadas</h2>

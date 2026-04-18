@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="bg-surface py-32 px-12 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+    <section id="about" className="bg-surface py-32 px-12 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
       <div className="order-2 md:order-1">
         <h2 className="font-serif text-5xl md:text-6xl text-white mb-10 leading-tight">
           Calidad Refinada, <br /> Diseño Atemporal.
