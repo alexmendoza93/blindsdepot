@@ -29,6 +29,7 @@ export default function RootLayout({
     <html
       lang="es"
       className={`${notoSerif.variable} ${workSans.variable} dark antialiased`}
+      suppressHydrationWarning
     >
       <head>
         <link
@@ -36,7 +37,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0&icon_names=calendar_month,check,check_circle,close,design_services,format_quote,location_on,mail,map,menu,phone"
         />
       </head>
-      <body className="min-h-screen flex flex-col font-sans bg-background text-on-surface">
+      <body className="min-h-screen flex flex-col font-sans bg-background text-on-surface" suppressHydrationWarning>
         {children}
       </body>
     </html>
