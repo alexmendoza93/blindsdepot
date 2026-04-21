@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <FeaturesSection />
-        {/* <AboutSection /> */}
+        <AboutSection />
         <CollectionsSection />
         <ExperienceSection />
         <ContactSection />

@@ -20,6 +20,14 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, []);
 
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center px-12 overflow-hidden">
       {/* Background Images Slider */}
@@ -45,9 +53,13 @@ export default function Hero() {
           Cubrimientos de ventanas a medida para el hogar moderno.
         </p>
         <div className="mt-12">
-          <button className="border border-outline/30 px-12 py-5 text-xs tracking-widest uppercase hover:border-secondary transition-all duration-700 cursor-pointer">
+          <a
+            href="#collections"
+            onClick={(e) => handleScroll(e, "collections")}
+            className="border border-outline/30 px-12 py-5 text-xs tracking-widest uppercase hover:text-white hover:border-secondary transition-all duration-700 cursor-pointer inline-block text-white"
+          >
             Explorar Galería
-          </button>
+          </a>
         </div>
       </div>
 

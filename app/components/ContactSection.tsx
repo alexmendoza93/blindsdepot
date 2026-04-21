@@ -1,10 +1,16 @@
 export default function ContactSection() {
   return (
-    <section className="bg-surface py-40 px-12 grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-outline-variant/5">
+    <section
+      id="contact"
+      className="bg-surface py-40 px-12 grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-outline-variant/5"
+    >
       <div className="p-12 md:p-24 border-r border-outline-variant/10 flex flex-col justify-center">
-        <h2 className="font-serif text-5xl md:text-6xl text-white mb-6">Contáctanos</h2>
+        <h2 className="font-serif text-5xl md:text-6xl text-white mb-6">
+          Contáctanos
+        </h2>
         <p className="font-sans text-gray-300 text-sm md:text-base leading-relaxed mb-16 max-w-md">
-          Para transformar tus espacios con elegancia, contacta a nuestro equipo hoy y descubre todo lo que podemos hacer por ti.
+          Para transformar tus espacios con elegancia, contacta a nuestro equipo
+          hoy y descubre todo lo que podemos hacer por ti.
         </p>
 
         <div className="space-y-10">
@@ -15,11 +21,21 @@ export default function ContactSection() {
               WhatsApp
             </h4>
             <p className="font-serif text-3xl text-white flex flex-col sm:flex-row sm:gap-4 gap-2">
-              <a href="https://wa.me/5213325808191" target="_blank" rel="noopener noreferrer" className="hover:text-[#b8a27d] transition-colors">
+              <a
+                href="https://wa.me/5213325808191"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#b8a27d] transition-colors"
+              >
                 +52 33 2580 8191
               </a>
               <span className="hidden sm:inline text-white/20">|</span>
-              <a href="https://wa.me/5213318241919" target="_blank" rel="noopener noreferrer" className="hover:text-[#b8a27d] transition-colors">
+              <a
+                href="https://wa.me/5213318241919"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#b8a27d] transition-colors"
+              >
                 +52 33 1824 1919
               </a>
             </p>
@@ -32,14 +48,21 @@ export default function ContactSection() {
               Llamada
             </h4>
             <p className="font-serif text-3xl text-white">
-              <a href="tel:3347119420" className="hover:text-[#b8a27d] transition-colors">33 4711 9420</a>
+              <a
+                href="tel:3347119420"
+                className="hover:text-[#b8a27d] transition-colors"
+              >
+                33 4711 9420
+              </a>
             </p>
           </div>
 
           {/* Dirección */}
           <div>
             <h4 className="font-sans text-[10px] tracking-widest text-[#b8a27d] uppercase font-bold mb-2 flex items-center gap-2">
-              <span className="material-symbols-outlined text-sm">location_on</span>
+              <span className="material-symbols-outlined text-sm">
+                location_on
+              </span>
               Ubicación
             </h4>
             <p className="font-serif text-2xl text-white">
@@ -51,12 +74,24 @@ export default function ContactSection() {
           {/* Horarios */}
           <div>
             <h4 className="font-sans text-[10px] tracking-widest text-[#b8a27d] uppercase font-bold mb-2 flex items-center gap-2">
-              <span className="material-symbols-outlined text-sm">schedule</span>
+              <span className="material-symbols-outlined text-sm">
+                schedule
+              </span>
               Horarios
             </h4>
             <div className="font-serif text-xl text-white space-y-1">
-              <p>Lunes a Viernes: <span className="font-sans text-lg text-gray-300">9:30 am - 6:30 pm</span></p>
-              <p>Sábados: <span className="font-sans text-lg text-gray-300">9:30 am - 2:30 pm</span></p>
+              <p>
+                Lunes a Viernes:{" "}
+                <span className="font-sans text-lg text-gray-300">
+                  9:30 am - 6:30 pm
+                </span>
+              </p>
+              <p>
+                Sábados:{" "}
+                <span className="font-sans text-lg text-gray-300">
+                  9:30 am - 2:30 pm
+                </span>
+              </p>
             </div>
           </div>
 
@@ -67,8 +102,18 @@ export default function ContactSection() {
               Social
             </h4>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:text-[#b8a27d] hover:border-[#b8a27d] transition-all">FB</a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:text-[#b8a27d] hover:border-[#b8a27d] transition-all">IG</a>
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:text-[#b8a27d] hover:border-[#b8a27d] transition-all"
+              >
+                FB
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white hover:text-[#b8a27d] hover:border-[#b8a27d] transition-all"
+              >
+                IG
+              </a>
             </div>
           </div>
         </div>

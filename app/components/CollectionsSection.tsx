@@ -188,7 +188,7 @@ export default function CollectionsSection() {
                           <p className="font-sans text-sm text-gray-200 mb-6 font-light leading-relaxed max-w-[90%]">
                             {product.description}
                           </p>
-                          <button className="font-sans text-xs tracking-widest uppercase border border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 rounded-sm">
+                          <button className="font-sans text-xs tracking-widest uppercase border border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 rounded-sm cursor-pointer">
                             MÁS
                           </button>
                         </div>
