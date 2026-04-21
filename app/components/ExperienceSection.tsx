@@ -50,7 +50,7 @@ export default function ExperienceSection() {
           <div className="relative aspect-[3/4] overflow-hidden border border-outline-variant/10">
             <img 
               alt="Instalación y diseño de interiores" 
-              className="w-full h-full object-cover grayscale opacity-90 transition-all duration-700 hover:grayscale-0 hover:scale-105" 
+              className="w-full h-full object-cover opacity-90 transition-all duration-700 hover:scale-105" 
               src="https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=2000&auto=format&fit=crop"
             />
             <div className="absolute top-8 left-8 right-8 bottom-8 border border-white/20 pointer-events-none"></div>

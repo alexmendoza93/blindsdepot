@@ -16,12 +16,12 @@ export default function Home() {
       <main>
         <Hero />
         <FeaturesSection />
-        <AboutSection />
+        {/* <AboutSection /> */}
         <CollectionsSection />
         <ExperienceSection />
-        <TestimonialSection />
-        <FAQSection />
         <ContactSection />
+        <FAQSection />
+        <TestimonialSection />
       </main>
       <Footer />
     </>
