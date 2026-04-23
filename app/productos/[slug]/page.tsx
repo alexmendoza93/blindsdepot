@@ -6,6 +6,9 @@ import ProductGallery from "../../components/product/ProductGallery";
 import ProductFeatures from "../../components/product/ProductFeatures";
 import ProductTech from "../../components/product/ProductTech";
 import ProductRelated from "../../components/product/ProductRelated";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 
 export async function generateStaticParams() {
   return products.map((product) => ({
@@ -22,33 +25,38 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
   }
 
   return (
-    <main className="bg-surface relative pb-20">
-      <ProductHero 
-        title={product.name} 
-        adjectives={product.heroAdjectives} 
-        image={product.image} 
-      />
-      
-      <ProductDetails 
-        description={product.description}
-        advantages={product.advantages}
-        advice={product.advice}
-        image={product.image}
-      />
-      
-      {product.features && product.features.length > 0 && (
-        <ProductFeatures features={product.features} />
-      )}
-      
-      {product.techSpecs && product.techSpecs.length > 0 && (
-        <ProductTech techSpecs={product.techSpecs} />
-      )}
+    <>
+      <Header />
+      <main className="bg-surface relative">
+        <ProductHero 
+          title={product.name} 
+          adjectives={product.heroAdjectives} 
+          image={product.image} 
+        />
+        
+        <ProductDetails 
+          description={product.description}
+          advantages={product.advantages}
+          advice={product.advice}
+          image={product.image}
+        />
+        
+        {product.features && product.features.length > 0 && (
+          <ProductFeatures features={product.features} />
+        )}
+        
+        {product.techSpecs && product.techSpecs.length > 0 && (
+          <ProductTech techSpecs={product.techSpecs} />
+        )}
 
-      {product.gallery && product.gallery.length > 0 && (
-        <ProductGallery images={product.gallery} />
-      )}
-      
-      <ProductRelated currentSlug={product.slug} category={product.category} />
-    </main>
+        {product.gallery && product.gallery.length > 0 && (
+          <ProductGallery images={product.gallery} />
+        )}
+        
+        <ProductRelated currentSlug={product.slug} category={product.category} />
+      </main>
+      <Footer />
+    </>
   );
 }
+

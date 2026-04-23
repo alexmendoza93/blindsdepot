@@ -8,17 +8,16 @@ export default function CollectionsSection() {
       className="bg-surface-container-low py-40 px-6 xl:px-12"
     >
       <div className="mb-24 text-center">
-        <span className="font-sans text-secondary tracking-[0.3em] uppercase text-[10px] mb-4 block">
-          Catálogo Completo
-        </span>
         <h2 className="font-serif text-5xl text-white">Nuestras Soluciones</h2>
       </div>
 
       <div className="max-w-[1600px] mx-auto flex flex-col gap-32">
         {categories.map((category, catIndex) => {
           // Filter products for this category
-          const categoryProducts = products.filter(p => p.category === category.category);
-          
+          const categoryProducts = products.filter(
+            (p) => p.category === category.category,
+          );
+
           return (
             <div key={catIndex} className="flex flex-col">
               <div className="mb-14 text-center">
