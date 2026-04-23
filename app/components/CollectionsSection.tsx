@@ -5,7 +5,7 @@ export default function CollectionsSection() {
   return (
     <section
       id="collections"
-      className="bg-surface-container-low py-40 px-6 xl:px-12"
+      className="bg-surface-container-low py-24 px-6 xl:px-12"
     >
       <div className="mb-24 text-center">
         <h2 className="font-serif text-5xl text-white">Nuestras Soluciones</h2>
