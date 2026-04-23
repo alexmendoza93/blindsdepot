@@ -1,7 +1,6 @@
 "use client";
 
-import Image from "next/image";
-
+import BrandLogo from "./BrandLogo";
 export default function Header() {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
@@ -13,19 +12,7 @@ export default function Header() {
 
   return (
     <header className="bg-[#131313]/60 backdrop-blur-xl docked full-width top-0 sticky z-50 flex justify-between items-center w-full px-12 py-6">
-      <div className="flex items-center gap-4">
-        <Image
-          src="/logo.png"
-          alt="Logo Blinds Depot"
-          width={44}
-          height={44}
-          className="object-contain"
-          priority
-        />
-        <div className="text-xl font-serif tracking-widest text-white">
-          BLINDS DEPOT
-        </div>
-      </div>
+        <BrandLogo />
       <nav className="hidden md:flex items-center space-x-12">
         <a
           className="text-gray-400 font-sans tracking-[0.1em] uppercase text-xs hover:text-[#eabf8e] transition-colors duration-500 cursor-pointer"

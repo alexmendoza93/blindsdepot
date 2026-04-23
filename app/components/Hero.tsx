@@ -47,10 +47,10 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl opacity-0 animate-[fade-in_800ms_forwards]">
         <h1 className="font-serif text-7xl md:text-9xl leading-[1.1] text-white mb-8 tracking-tighter">
-          La Arquitectura <br /> de la Luz
+          Proteje tus espacios
         </h1>
         <p className="font-sans text-secondary tracking-[0.2em] uppercase text-sm md:text-base">
-          Cubrimientos de ventanas a medida para el hogar moderno.
+          Soluciones a la medida.
         </p>
         <div className="mt-12">
           <a
@@ -58,7 +58,7 @@ export default function Hero() {
             onClick={(e) => handleScroll(e, "collections")}
             className="border border-outline/30 px-12 py-5 text-xs tracking-widest uppercase hover:text-white hover:border-secondary transition-all duration-700 cursor-pointer inline-block text-white"
           >
-            Explorar Galería
+            Explora
           </a>
         </div>
       </div>

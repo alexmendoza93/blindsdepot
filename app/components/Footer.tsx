@@ -7,6 +7,7 @@ import {
   ClockIcon,
   MailIcon,
 } from "./Icons";
+import BrandLogo from "./BrandLogo";
 
 export default function Footer() {
   return (
@@ -15,9 +16,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 pb-20">
           {/* Branding Column */}
           <div className="col-span-1">
-            <div className="text-xl font-serif text-white mb-6 tracking-wider">
-              BLINDS DEPOT
-            </div>
+            <BrandLogo 
+              className="mb-6 inline-flex" 
+              textClassName="text-xl font-serif text-white tracking-wider hover:text-[#b8a27d] transition-colors" 
+              showIcon={false} 
+            />
             <p className="font-sans text-[14px] text-gray-400 leading-relaxed max-w-xs uppercase tracking-wider">
               SOLUCIONES EN MODULACIÓN DE LUZ DESDE 1998.
             </p>

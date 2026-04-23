@@ -31,7 +31,7 @@ export default function ContactSection() {
               <WhatsAppIcon className="w-5 h-5" />
               WhatsApp
             </h4>
-            <p className="font-serif text-3xl text-white flex flex-col sm:flex-row sm:gap-4 gap-2 justify-center">
+            <p className="font-serif text-2xl text-white flex flex-col sm:flex-row sm:gap-4 gap-2 justify-center">
               <a
                 href="https://wa.me/5213325808191"
                 target="_blank"
@@ -58,7 +58,7 @@ export default function ContactSection() {
               <PhoneIcon className="w-5 h-5" />
               Llamada
             </h4>
-            <p className="font-serif text-3xl text-white">
+            <p className="font-serif text-2xl text-white">
               <a
                 href="tel:3347119420"
                 className="hover:text-[#b8a27d] transition-colors"
