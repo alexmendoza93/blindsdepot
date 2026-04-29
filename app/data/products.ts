@@ -75,8 +75,8 @@ export const products: Product[] = [
     ],
     gallery: [
       "/images/cortinas-onda-perfecta.jpg",
-      "https://amazonaws.ipos.mx/fotos/4135/producto/3557582cc48d402593c5ecdc3231b8bc_16102025033644.jpg",
-      "https://azuldecor.com.mx/wp-content/uploads/2025/08/sala-de-estar-con-cortinas-enrollables-dia-noche.jpg", // Using placeholder images
+      "/images/cortina-onda-perfecta-comedor.jpeg",
+      "/images/onda-perfecta.jpeg",
     ],
   },
   {
@@ -121,7 +121,9 @@ export const products: Product[] = [
         description: "Requiere limpieza profesional o en seco para mantener la estructura de la cabecilla y el planchado de las caídas, dependiendo de la tela."
       }
     ],
-    gallery: [],
+    gallery: [
+      "/images/pliegue-frances-4.jpeg",
+    ],
   },
   {
     slug: "cortina-ojal",
@@ -257,7 +259,11 @@ export const products: Product[] = [
         description: "Limpieza en seco o sacudido suave. No se recomienda mojar la tela para evitar ondulaciones o pérdida de la alineación."
       }
     ],
-    gallery: [],
+    gallery: [
+      "/images/sheer-elegance.jpeg",
+      "/images/sheer-elegance-cocina.jpeg",
+      "/images/sheer-elegance-escaleras.jpeg",
+    ],
   },
   {
     slug: "dia-y-noche",
@@ -392,7 +398,9 @@ export const products: Product[] = [
         description: "Hilos de fibra de vidrio o poliéster recubiertos de PVC, lo que las hace ignífugas y muy resistentes al desgaste."
       }
     ],
-    gallery: [],
+    gallery: [
+      "/images/malla-sombra.jpeg",
+    ],
   },
   {
     slug: "verticales",
@@ -528,7 +536,10 @@ export const products: Product[] = [
         description: "Estructura interna en perfiles tubulares ligeros pero sumamente rígidos, esmaltados para evitar corrosión."
       }
     ],
-    gallery: [],
+    gallery: [
+      "/images/toldo-estilo-frances.jpeg",
+      "/images/toldo-estilo-frances-negro.jpeg",
+    ],
   },
   {
     slug: "retractiles",
@@ -573,7 +584,9 @@ export const products: Product[] = [
         description: "Lonas acrílicas con tratamiento repelente al agua, moho y filtración de 99% UV, manteniendo los colores vivos."
       }
     ],
-    gallery: [],
+    gallery: [
+      "/images/toldo-plegable.jpeg",
+    ],
   },
   {
     slug: "caida-vertical",
@@ -618,7 +631,10 @@ export const products: Product[] = [
         description: "Manual mediante manivela (redactor de peso) o motorizado tubular."
       }
     ],
-    gallery: [],
+    gallery: [
+      "/images/toldo-caida-libre.jpeg",
+      "/images/toldo-caida-libre-negro.jpeg",
+    ],
   },
   {
     slug: "90-grados",
