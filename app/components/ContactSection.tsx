@@ -113,7 +113,7 @@ export default function ContactSection() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110"
+                className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110 cursor-pointer"
                 aria-label="Facebook"
               >
                 <FacebookIcon className="w-8 h-8" />
@@ -122,7 +122,7 @@ export default function ContactSection() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110"
+                className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110 cursor-pointer"
                 aria-label="Instagram"
               >
                 <InstagramIcon className="w-8 h-8" />
@@ -131,7 +131,7 @@ export default function ContactSection() {
                 href="https://tiktok.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110"
+                className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110 cursor-pointer"
                 aria-label="TikTok"
               >
                 <TikTokIcon className="w-8 h-8" />

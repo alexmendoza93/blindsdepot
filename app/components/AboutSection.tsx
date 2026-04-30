@@ -44,7 +44,7 @@ export default function AboutSection() {
           href="https://wa.me/c/5213312694219"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 text-sm font-sans text-on-surface-variant hover:text-white transition-colors duration-300 group"
+          className="inline-flex items-center justify-center gap-2 text-sm font-sans text-on-surface-variant hover:text-white transition-colors duration-300 group cursor-pointer"
         >
           <svg
             className="w-5 h-5 text-white group-hover:text-[#1EBE5D] transition-colors"
