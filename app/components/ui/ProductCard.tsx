@@ -31,10 +31,10 @@ export default function ProductCard({ product }: { product: Product }) {
           <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] w-full">
             <div className="overflow-hidden">
               <div className="flex flex-col items-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700 opacity-0 group-hover:opacity-100 pt-4">
-                <p className="font-sans text-sm text-gray-200 mb-6 font-light leading-relaxed max-w-[90%]">
+                <p className="font-sans text-md text-white/90 mb-6 font-medium leading-relaxed max-w-[90%]">
                   {product.description}
                 </p>
-                <div className="font-sans text-xs tracking-widest uppercase border border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 rounded-sm cursor-pointer inline-block">
+                <div className="font-sans text-xs tracking-widest uppercase border border-secondary text-white px-8 py-3 hover:bg-secondary hover:text-black transition-all duration-700 rounded-sm cursor-pointer inline-block">
                   MÁS INFO
                 </div>
               </div>
