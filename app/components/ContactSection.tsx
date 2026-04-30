@@ -110,7 +110,7 @@ export default function ContactSection() {
             </h4>
             <div className="flex gap-6 justify-center">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1JBdnkyEJk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110 cursor-pointer"
@@ -119,7 +119,7 @@ export default function ContactSection() {
                 <FacebookIcon className="w-8 h-8" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/blinds_depot?utm_source=qr&igsh=MTA4YWk4Ymlzb3ZiZQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110 cursor-pointer"

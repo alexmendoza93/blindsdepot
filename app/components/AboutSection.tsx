@@ -18,7 +18,7 @@ export default function AboutSection() {
         <p className="font-sans text-on-surface-variant text-lg leading-relaxed mb-4 mx-auto">
           Nos encontramos en Guadalajara, Jalisco, y trabajamos con el
           compromiso de ofrecer atención personalizada, productos premium y
-          acabados impecables que elevan cada ambiente.
+          acabados impecables.
         </p>
         <p className="font-sans text-on-surface-variant text-lg leading-relaxed mb-4 mx-auto">
           Ofrecemos una amplia variedad de opciones, ideales para crear espacios

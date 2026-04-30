@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4 mt-8">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/blinds_depot?utm_source=qr&igsh=MTA4YWk4Ymlzb3ZiZQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-secondary hover:text-white transition-all duration-700 cursor-pointer"
@@ -35,7 +35,7 @@ export default function Footer() {
                 <InstagramIcon className="w-4 h-4" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1JBdnkyEJk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-secondary hover:text-white transition-all duration-700 cursor-pointer"
