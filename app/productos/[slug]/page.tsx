@@ -31,14 +31,14 @@ export default async function ProductPage(props: { params: Promise<{ slug: strin
         <ProductHero 
           title={product.name} 
           adjectives={product.heroAdjectives} 
-          image={product.image} 
+          image={product.heroImage} 
         />
         
         <ProductDetails 
           description={product.description}
           advantages={product.advantages}
           advice={product.advice}
-          image={product.image}
+          image={product.aboutImage}
         />
         
         {product.features && product.features.length > 0 && (
