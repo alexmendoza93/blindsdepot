@@ -128,7 +128,7 @@ export default function ContactSection() {
                 <InstagramIcon className="w-8 h-8" />
               </a>
               <a
-                href="https://tiktok.com"
+                href="https://www.tiktok.com/@blinds.depot?_r=1&_t=ZS-95yp1mmMS2P"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-secondary transition-all duration-300 transform hover:scale-110 cursor-pointer"

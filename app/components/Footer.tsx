@@ -44,7 +44,7 @@ export default function Footer() {
                 <FacebookIcon className="w-4 h-4" />
               </a>
               <a
-                href="https://tiktok.com"
+                href="https://www.tiktok.com/@blinds.depot?_r=1&_t=ZS-95yp1mmMS2P"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-secondary hover:text-white transition-all duration-700 cursor-pointer"
