@@ -4,7 +4,7 @@ export default function FeaturesSection() {
       id: "warranty",
       title: "Hasta 10 Años de Garantía",
       description:
-        "En Blinds Depot, ofrecemos una garantía de hasta 10 años, asegurando la máxima durabilidad y calidad en cada producto. Confíe en nuestra promesa de elegancia duradera.",
+        "En Blinds Depot, ofrecemos una garantía de hasta 10 años en productos seleccionados, asegurando la máxima durabilidad y calidad en cada producto. Confíe en nuestra promesa de elegancia duradera.",
       icon: (
         <svg
           className="w-8 h-8 text-secondary"

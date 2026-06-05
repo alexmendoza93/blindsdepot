@@ -29,8 +29,10 @@ export const products: Product[] = [
     description:
       "Las cortinas de onda perfecta se caracterizan por su diseño de ondas simétricas y fluidas que aportan modernidad y mucha sofisticación a cualquier espacio. Su mecanismo y la cinta especial aseguran que cada onda mantenga su forma exacta desde el riel hasta el suelo, creando una caída verdaderamente impecable ideal para espacios contemporáneos o ventanales altos.",
     image: "/images/onda-perfecta.jpeg",
-    heroImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
+    heroImage:
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
     heroAdjectives: ["MODERNIDAD", "SIMETRÍA", "ELEGANCIA"],
     advantages: [
       "Caída impecable y uniforme que siempre mantiene su forma",
@@ -90,8 +92,10 @@ export const products: Product[] = [
     description:
       "El diseño tradicional y elegante que nunca pasa de moda. Un clásico atemporal que enriquece cualquier decoración interior gracias a sus característicos pliegues agrupados.",
     image: "/images/pliegue-frances-4.jpeg",
-    heroImage: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    heroImage:
+      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
     heroAdjectives: ["CLÁSICA", "ATEMPORAL", "DISTINGUIDA"],
     advantages: [
       "Aporta cuerpo, volumen y una caída estructurada muy elegante",
@@ -141,9 +145,12 @@ export const products: Product[] = [
     category: "Cortinas",
     description:
       "Caída suave y ondas marcadas para un estilo contemporáneo. Complemento perfecto de barras decorativas, ofreciendo una instalación visible y estética.",
-    image: "https://amazonaws.ipos.mx/fotos/4135/producto/3557582cc48d402593c5ecdc3231b8bc_16102025033644.jpg",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
+    image:
+      "https://amazonaws.ipos.mx/fotos/4135/producto/3557582cc48d402593c5ecdc3231b8bc_16102025033644.jpg",
+    heroImage:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
     heroAdjectives: ["CONTEMPORÁNEA", "VERSÁTIL", "PRÁCTICA"],
     advantages: [
       "Instalación sencilla y deslizamiento fluido sobre la barra",
@@ -194,9 +201,12 @@ export const products: Product[] = [
     category: "Persianas",
     description:
       "Simplicidad y funcionalidad para cualquier tipo de ambiente. Su diseño plano y compacto se adapta discretamente a la ventana, ofreciendo una extensa colección de telas y acabados.",
-    image: "https://i0.wp.com/persianaspentagrama.com/wp-content/uploads/2024/12/destacado-cortinas-enrollables.webp",
-    heroImage: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
+    image:
+      "https://i0.wp.com/persianaspentagrama.com/wp-content/uploads/2024/12/destacado-cortinas-enrollables.webp",
+    heroImage:
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
     heroAdjectives: ["MINIMALISTA", "FUNCIONAL", "PRÁCTICA"],
     advantages: [
       "Ocupan muy poco espacio visual y físico al estar enrolladas",
@@ -246,9 +256,12 @@ export const products: Product[] = [
     category: "Persianas",
     description:
       "Control preciso de la luz con un diseño innovador de franjas sólidas y traslúcidas intercaladas. Una dualidad elegante que brinda un ambiente sofisticado y moderno.",
-    image: "https://http2.mlstatic.com/D_NQ_NP_802911-MLM100499430100_122025-O-oferta-persianas-sheer-elegance-enrollable-a-599-m2-43.webp",
-    heroImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
+    image:
+      "https://http2.mlstatic.com/D_NQ_NP_802911-MLM100499430100_122025-O-oferta-persianas-sheer-elegance-enrollable-a-599-m2-43.webp",
+    heroImage:
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
     heroAdjectives: ["SOFISTICADA", "DUAL", "VERSÁTIL"],
     advantages: [
       "Regula la privacidad y entrada de luz sin necesidad de subir la persiana completa",
@@ -302,9 +315,12 @@ export const products: Product[] = [
     category: "Persianas",
     description:
       "La solución definitiva para control total: combina una persiana traslúcida y una black out en una sola ventana. Maximiza tu control de la iluminación de manera inteligente.",
-    image: "https://azuldecor.com.mx/wp-content/uploads/2025/08/sala-de-estar-con-cortinas-enrollables-dia-noche.jpg",
-    heroImage: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    image:
+      "https://azuldecor.com.mx/wp-content/uploads/2025/08/sala-de-estar-con-cortinas-enrollables-dia-noche.jpg",
+    heroImage:
+      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
     heroAdjectives: ["DOBLE FUNCIÓN", "INTELIGENTE", "ÓPTIMA"],
     advantages: [
       "Dos persianas independientes compartiendo el mismo soporte",
@@ -354,9 +370,12 @@ export const products: Product[] = [
     category: "Persianas",
     description:
       "Oscuridad máxima ideal para un descanso profundo y reparador. Aislamiento térmico y visual del exterior mediante telas recubiertas de alta tecnología.",
-    image: "https://www.disprodec.com.co/images/Productos/Nuevos_Productos/Cortinas_enrollables/cortina-enrollable1.jpg",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
+    image:
+      "https://www.disprodec.com.co/images/Productos/Nuevos_Productos/Cortinas_enrollables/cortina-enrollable1.jpg",
+    heroImage:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
     heroAdjectives: ["DESCANSO", "AISLANTE", "MÁXIMA PRIVACIDAD"],
     advantages: [
       "Bloqueo total del paso de luz a través de la tela",
@@ -406,9 +425,12 @@ export const products: Product[] = [
     category: "Persianas",
     description:
       "Control solar y privacidad sin perder la vista al exterior. Tejidos perforados de alta tecnología que filtran los rayos UV manteniendo tus espacios frescos y luminosos.",
-    image: "https://abaser.co/wp-content/uploads/elementor/thumbs/enrollable-galeria-home-pyc5w3k8pofq3778at1kttfqzc890t1tvcq8cfejd4.jpg",
-    heroImage: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
+    image:
+      "https://abaser.co/wp-content/uploads/elementor/thumbs/enrollable-galeria-home-pyc5w3k8pofq3778at1kttfqzc890t1tvcq8cfejd4.jpg",
+    heroImage:
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
     heroAdjectives: ["TÉRMICA", "TRANSLÚCIDA", "MODERNA"],
     advantages: [
       "Permite ver hacia afuera mientras protege de miradas exteriores (de día)",
@@ -453,66 +475,17 @@ export const products: Product[] = [
     gallery: ["/images/malla-sombra.jpeg"],
   },
   {
-    slug: "verticales",
-    name: "Persianas Verticales",
-    category: "Persianas",
-    description:
-      "Control de luz y privacidad absoluto, ideal para grandes ventanales, canceles corredizos y proyectos comerciales contemporáneos.",
-    image: "https://sophiestore.pe/wp-content/uploads/2024/11/persianas-verticales-crema.jpg",
-    heroImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
-    heroAdjectives: ["TRADICIONAL", "PRACTICIDAD", "ECONÓMICA"],
-    advantages: [
-      "Rotación de 180 grados para un direccionamiento de luz perfecto",
-      "Ideal para puertas corredizas, ya que se pueden recoger hacia un lado",
-      "Efecto visual que hace ver los techos más altos",
-      "Las tabletas individuales son fáciles de reemplazar si se dañan",
-    ],
-    advice:
-      "Son la mejor opción cuando se tiene un cancel con mucho tránsito hacia un patio o balcón. Opta por tabletas de tela rígida para un aspecto más cálido residencial, o tabletas de PVC para alto tráfico y limpieza rápida.",
-    features: [
-      {
-        title: "Tabletas Independientes",
-        description:
-          "Láminas verticales de 90mm que cuelgan del riel superior de manera uniforme.",
-        icon: "menu",
-      },
-      {
-        title: "Giros de 180°",
-        description:
-          "Permiten dirigir la entrada del sol o cerrarse completamente empalmándose.",
-        icon: "rotate-cw",
-      },
-      {
-        title: "Aperturas Flexibles",
-        description:
-          "Pueden abrir hacia la derecha, hacia la izquierda, o dividirse al centro.",
-        icon: "expand",
-      },
-    ],
-    techSpecs: [
-      {
-        title: "Riel",
-        description:
-          "Riel de aluminio anodizado con carros autolubricados y cordón de desplazamiento de alta resistencia.",
-      },
-      {
-        title: "Material de Tabletas",
-        description:
-          "Disponibles en PVC (fácil lavado, lisas o texturizadas) o en tela (tratadas con apresto para mantener la rigidez).",
-      },
-    ],
-    gallery: [],
-  },
-  {
     slug: "shangri-la",
     name: "Persianas Shangri-la",
     category: "Persianas",
     description:
       "Suavidad visual de una cortina tradicional con la funcionalidad precisa de una persiana. Compuesta por láminas horizontales de tela suspendidas entre dos velos transparentes.",
-    image: "https://wcp2api.hdlao.com/storage/1927/conversions/cortina-shangri-la_2-optimized.webp",
-    heroImage: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    image:
+      "https://wcp2api.hdlao.com/storage/1927/conversions/cortina-shangri-la_2-optimized.webp",
+    heroImage:
+      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
     heroAdjectives: ["INNOVADORA", "SUAVE", "ELEGANTE"],
     advantages: [
       "Efecto flotante mágico que transforma la luz exterior en un brillo suave",
@@ -563,9 +536,12 @@ export const products: Product[] = [
     category: "Toldos",
     description:
       "Elegancia clásica europea para terrazas, ventanas y comercios. Su diseño curvo o de ángulo fijo añade un toque arquitectónico distintivo y permanente a cualquier fachada.",
-    image: "https://www.toldospaulistano.com.br/images/articles/toldo-para-porta-de-entrada-em-sao-paulo.webp",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
+    image:
+      "https://www.toldospaulistano.com.br/images/articles/toldo-para-porta-de-entrada-em-sao-paulo.webp",
+    heroImage:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
     heroAdjectives: ["CLÁSICO", "EUROPEO", "DISTINTIVO"],
     advantages: [
       "Agrega valor arquitectónico e identidad visual a la propiedad",
@@ -618,9 +594,12 @@ export const products: Product[] = [
     category: "Toldos",
     description:
       "Flexibilidad total para tus espacios al aire libre. Sus brazos extensibles permiten tener sombra cuando la necesitas y cielo abierto cuando lo prefieres.",
-    image: "https://static.wixstatic.com/media/7a0311_e062df196ba94d7b9dd6cb58202a13f3~mv2.jpg",
-    heroImage: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
+    image:
+      "https://static.wixstatic.com/media/7a0311_e062df196ba94d7b9dd6cb58202a13f3~mv2.jpg",
+    heroImage:
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
     heroAdjectives: ["FLEXIBLE", "FUNCIONAL", "MOTORIZADO"],
     advantages: [
       "Extiende el área habitable hacia patios y terrazas",
@@ -670,9 +649,12 @@ export const products: Product[] = [
     category: "Toldos",
     description:
       "Protección solar eficiente con un diseño minimalista. Ideales para cerrar perimetralmente terrazas, balcones y pérgolas de manera elegante y funcional.",
-    image: "https://images.pexels.com/photos/34277692/pexels-photo-34277692.jpeg",
-    heroImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
+    image:
+      "https://images.pexels.com/photos/34277692/pexels-photo-34277692.jpeg",
+    heroImage:
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
     heroAdjectives: ["MINIMALISTA", "PROTECCIÓN", "PERIMETRAL"],
     advantages: [
       "Convierte terrazas abiertas en áreas útiles sin importar el sol lateral",
@@ -725,9 +707,12 @@ export const products: Product[] = [
     category: "Toldos",
     description:
       "Protección que se adapta a las ventanas. Una solución donde el brazo cae verticalmente y luego se proyecta formando un ángulo que permite sombra y ventilación a la vez.",
-    image: "https://www.rappachiani.com.ar/img/toldos/brazo-fijo/toldo-brazo-fijo-05.jpg",
-    heroImage: "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    image:
+      "https://www.rappachiani.com.ar/img/toldos/brazo-fijo/toldo-brazo-fijo-05.jpg",
+    heroImage:
+      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    aboutImage:
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
     heroAdjectives: ["GEOMÉTRICA", "RÍGIDO", "FUNCIONAL"],
     advantages: [
       "Permite abrir la ventana hacia afuera y mantener ventilación",
@@ -767,110 +752,6 @@ export const products: Product[] = [
         title: "Tensión",
         description:
           "Mecanismo interno con resortes en los brazos que mantienen la lona permanentemente tensa.",
-      },
-    ],
-    gallery: [],
-  },
-  {
-    slug: "zip",
-    name: "Toldo Zip",
-    category: "Toldos",
-    description:
-      "El sistema vertical definitivo. La tela se desliza cautiva dentro de unas guías laterales mediante un sistema de cremallera, haciéndolo altamente resistente al viento y ofreciendo un cierre 100% hermético.",
-    image: "https://www.arquimaster.com.ar/web/wp-content/uploads/2016/04/toldos_universal_zip.jpg",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
-    heroAdjectives: ["RESISTENCIA", "HERMÉTICO", "PREMIUM"],
-    advantages: [
-      "Resistencia a vientos de hasta 100 km/h al no dejar que la lona 'flanee'",
-      "Cierre lateral hermético que bloquea insectos, lluvia y polvo",
-      "Ideal para climatizar pérgolas (retiene aire acondicionado o calefacción)",
-      "La lona siempre lucirá perfectamente tensa sin arrugas",
-    ],
-    advice:
-      "Si buscas cerrar una terraza para usarla todo el año como comedor o sala exterior, el Toldo ZIP es la mejor inversión del mercado. En tela transparente (PVC) te aísla del clima severo; en tela Malla Screen, frena los vientos y el sol molestos.",
-    features: [
-      {
-        title: "Sistema de Cremallera",
-        description:
-          "Los bordes de la lona tienen un cierre soldado que va asegurado dentro de los perfiles laterales.",
-        icon: "lock",
-      },
-      {
-        title: "Cajón Oculto",
-        description:
-          "Rollo contenido en un cofre de aluminio extruido muy elegante y compacto.",
-        icon: "box",
-      },
-      {
-        title: "Alta Ingeniería",
-        description:
-          "Sistemas mayormente motorizados por la tensión que manejan, asegurando suavidad de uso.",
-        icon: "settings",
-      },
-    ],
-    techSpecs: [
-      {
-        title: "Resistencia al Viento",
-        description:
-          "Certificaciones clase 3 a 6 (dependiendo la dimensión), el más resistente en sistemas verticales.",
-      },
-      {
-        title: "Dimensiones Máximas",
-        description:
-          "Permite cubrir grandes claros (hasta 6m de ancho) sin divisiones ni soportes intermedios.",
-      },
-    ],
-    gallery: [],
-  },
-  {
-    slug: "domo",
-    name: "Toldo Domo",
-    category: "Toldos",
-    description:
-      "Estilo arquitectónico curvo o en forma de cuarto de esfera que brinda protección duradera, estética y personalidad a accesos, ventanas o escaparates.",
-    image: "https://cdn1.vente-unique.com/thumbnails/product/3623/3623132/large/0/42014529.webp",
-    heroImage: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
-    heroAdjectives: ["CLÁSICO", "ICÓNICO", "DURADERO"],
-    advantages: [
-      "Protección por sus 3 lados contra lluvia lateral y sol oblicuo",
-      "Da un aspecto de hotel boutique o restaurante de lujo clásico",
-      "Ideal para entradas principales protegiendo a la gente mientras espera",
-      "Muy resistente al agua ya que su forma escurre la lluvia inmediatamente",
-    ],
-    advice:
-      "Muy recomendado para negocios de hostelería o puertas de arco medio. A diferencia de otros toldos curvos retráctiles, los domos en forma de esfera suelen ser fijos por su complejidad, lo cual garantiza una altísima durabilidad pero requiere permisos de fachada en algunos residenciales.",
-    features: [
-      {
-        title: "Forma 3D",
-        description:
-          "Estructura semiesférica de varios aros que tensionan la tela de forma magistral.",
-        icon: "globe",
-      },
-      {
-        title: "Protección Envolvente",
-        description:
-          "Cubre por arriba y por los laterales, evitando filtraciones en los costados.",
-        icon: "shield",
-      },
-      {
-        title: "Estética Atractiva",
-        description:
-          "Su diseño voluminoso atrae miradas, ideal para resaltar negocios en la calle.",
-        icon: "star",
-      },
-    ],
-    techSpecs: [
-      {
-        title: "Fabricación",
-        description:
-          "Confección artesanal de la lona en gajos termosoldados para evitar filtraciones de agua en las costuras.",
-      },
-      {
-        title: "Perfiles",
-        description:
-          "Típicamente fabricado con aros de aluminio rolados a medida para no oxidarse con la humedad constante.",
       },
     ],
     gallery: [],
