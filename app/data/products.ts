@@ -29,10 +29,8 @@ export const products: Product[] = [
     description:
       "Las cortinas de onda perfecta se caracterizan por su diseño de ondas simétricas y fluidas que aportan modernidad y mucha sofisticación a cualquier espacio. Su mecanismo y la cinta especial aseguran que cada onda mantenga su forma exacta desde el riel hasta el suelo, creando una caída verdaderamente impecable ideal para espacios contemporáneos o ventanales altos.",
     image: "/images/onda-perfecta.jpeg",
-    heroImage:
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
+    heroImage: "/images/hero-perfect.webp",
+    aboutImage: "/images/cortina-onda-perfecta-comedor.jpeg",
     heroAdjectives: ["MODERNIDAD", "SIMETRÍA", "ELEGANCIA"],
     advantages: [
       "Caída impecable y uniforme que siempre mantiene su forma",
@@ -92,10 +90,8 @@ export const products: Product[] = [
     description:
       "El diseño tradicional y elegante que nunca pasa de moda. Un clásico atemporal que enriquece cualquier decoración interior gracias a sus característicos pliegues agrupados.",
     image: "/images/pliegue-frances-4.jpeg",
-    heroImage:
-      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    heroImage: "/images/hero-frances.jpg",
+    aboutImage: "/images/side-french.jpg",
     heroAdjectives: ["CLÁSICA", "ATEMPORAL", "DISTINGUIDA"],
     advantages: [
       "Aporta cuerpo, volumen y una caída estructurada muy elegante",
@@ -147,10 +143,8 @@ export const products: Product[] = [
       "Caída suave y ondas marcadas para un estilo contemporáneo. Complemento perfecto de barras decorativas, ofreciendo una instalación visible y estética.",
     image:
       "https://amazonaws.ipos.mx/fotos/4135/producto/3557582cc48d402593c5ecdc3231b8bc_16102025033644.jpg",
-    heroImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
+    heroImage: "/images/ojal-hero.webp",
+    aboutImage: "/images/side-ojal.webp",
     heroAdjectives: ["CONTEMPORÁNEA", "VERSÁTIL", "PRÁCTICA"],
     advantages: [
       "Instalación sencilla y deslizamiento fluido sobre la barra",
@@ -203,10 +197,8 @@ export const products: Product[] = [
       "Simplicidad y funcionalidad para cualquier tipo de ambiente. Su diseño plano y compacto se adapta discretamente a la ventana, ofreciendo una extensa colección de telas y acabados.",
     image:
       "https://i0.wp.com/persianaspentagrama.com/wp-content/uploads/2024/12/destacado-cortinas-enrollables.webp",
-    heroImage:
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
+    heroImage: "/images/hero-enrrollable.png",
+    aboutImage: "/images/side-enrrollable.avif",
     heroAdjectives: ["MINIMALISTA", "FUNCIONAL", "PRÁCTICA"],
     advantages: [
       "Ocupan muy poco espacio visual y físico al estar enrolladas",
@@ -258,10 +250,8 @@ export const products: Product[] = [
       "Control preciso de la luz con un diseño innovador de franjas sólidas y traslúcidas intercaladas. Una dualidad elegante que brinda un ambiente sofisticado y moderno.",
     image:
       "https://http2.mlstatic.com/D_NQ_NP_802911-MLM100499430100_122025-O-oferta-persianas-sheer-elegance-enrollable-a-599-m2-43.webp",
-    heroImage:
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
+    heroImage: "/images/hero-sheer.avif",
+    aboutImage: "/images/side-sheer.jpg",
     heroAdjectives: ["SOFISTICADA", "DUAL", "VERSÁTIL"],
     advantages: [
       "Regula la privacidad y entrada de luz sin necesidad de subir la persiana completa",
@@ -317,10 +307,8 @@ export const products: Product[] = [
       "La solución definitiva para control total: combina una persiana traslúcida y una black out en una sola ventana. Maximiza tu control de la iluminación de manera inteligente.",
     image:
       "https://azuldecor.com.mx/wp-content/uploads/2025/08/sala-de-estar-con-cortinas-enrollables-dia-noche.jpg",
-    heroImage:
-      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    heroImage: "/images/hero-day-night.webp",
+    aboutImage: "/images/side-day-night.webp",
     heroAdjectives: ["DOBLE FUNCIÓN", "INTELIGENTE", "ÓPTIMA"],
     advantages: [
       "Dos persianas independientes compartiendo el mismo soporte",
@@ -372,10 +360,8 @@ export const products: Product[] = [
       "Oscuridad máxima ideal para un descanso profundo y reparador. Aislamiento térmico y visual del exterior mediante telas recubiertas de alta tecnología.",
     image:
       "https://www.disprodec.com.co/images/Productos/Nuevos_Productos/Cortinas_enrollables/cortina-enrollable1.jpg",
-    heroImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
+    heroImage: "/images/hero-blackout.jpg",
+    aboutImage: "/images/side-blackout.jpeg",
     heroAdjectives: ["DESCANSO", "AISLANTE", "MÁXIMA PRIVACIDAD"],
     advantages: [
       "Bloqueo total del paso de luz a través de la tela",
@@ -427,10 +413,8 @@ export const products: Product[] = [
       "Control solar y privacidad sin perder la vista al exterior. Tejidos perforados de alta tecnología que filtran los rayos UV manteniendo tus espacios frescos y luminosos.",
     image:
       "https://abaser.co/wp-content/uploads/elementor/thumbs/enrollable-galeria-home-pyc5w3k8pofq3778at1kttfqzc890t1tvcq8cfejd4.jpg",
-    heroImage:
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
+    heroImage: "/images/hero-malla-screen.avif",
+    aboutImage: "/images/side-malla-screen.webp",
     heroAdjectives: ["TÉRMICA", "TRANSLÚCIDA", "MODERNA"],
     advantages: [
       "Permite ver hacia afuera mientras protege de miradas exteriores (de día)",
@@ -482,10 +466,8 @@ export const products: Product[] = [
       "Suavidad visual de una cortina tradicional con la funcionalidad precisa de una persiana. Compuesta por láminas horizontales de tela suspendidas entre dos velos transparentes.",
     image:
       "https://wcp2api.hdlao.com/storage/1927/conversions/cortina-shangri-la_2-optimized.webp",
-    heroImage:
-      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    heroImage: "/images/hero-shangri-la.webp",
+    aboutImage: "/images/side-shangri-la.jpeg",
     heroAdjectives: ["INNOVADORA", "SUAVE", "ELEGANTE"],
     advantages: [
       "Efecto flotante mágico que transforma la luz exterior en un brillo suave",
@@ -538,10 +520,8 @@ export const products: Product[] = [
       "Elegancia clásica europea para terrazas, ventanas y comercios. Su diseño curvo o de ángulo fijo añade un toque arquitectónico distintivo y permanente a cualquier fachada.",
     image:
       "https://www.toldospaulistano.com.br/images/articles/toldo-para-porta-de-entrada-em-sao-paulo.webp",
-    heroImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=1964&auto=format&fit=crop",
+    heroImage: "/images/toldo-estilo-frances.jpeg",
+    aboutImage: "/images/toldo-estilo-frances-negro.jpeg",
     heroAdjectives: ["CLÁSICO", "EUROPEO", "DISTINTIVO"],
     advantages: [
       "Agrega valor arquitectónico e identidad visual a la propiedad",
@@ -596,10 +576,8 @@ export const products: Product[] = [
       "Flexibilidad total para tus espacios al aire libre. Sus brazos extensibles permiten tener sombra cuando la necesitas y cielo abierto cuando lo prefieres.",
     image:
       "https://static.wixstatic.com/media/7a0311_e062df196ba94d7b9dd6cb58202a13f3~mv2.jpg",
-    heroImage:
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2000&auto=format&fit=crop",
+    heroImage: "/images/hero-retractil.jpg",
+    aboutImage: "/images/side-retractil.avif",
     heroAdjectives: ["FLEXIBLE", "FUNCIONAL", "MOTORIZADO"],
     advantages: [
       "Extiende el área habitable hacia patios y terrazas",
@@ -651,10 +629,8 @@ export const products: Product[] = [
       "Protección solar eficiente con un diseño minimalista. Ideales para cerrar perimetralmente terrazas, balcones y pérgolas de manera elegante y funcional.",
     image:
       "https://images.pexels.com/photos/34277692/pexels-photo-34277692.jpeg",
-    heroImage:
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1932&auto=format&fit=crop",
+    heroImage: "/images/hero-toldo-vertical.jpg",
+    aboutImage: "/images/side-vertical.jpg",
     heroAdjectives: ["MINIMALISTA", "PROTECCIÓN", "PERIMETRAL"],
     advantages: [
       "Convierte terrazas abiertas en áreas útiles sin importar el sol lateral",
@@ -709,10 +685,8 @@ export const products: Product[] = [
       "Protección que se adapta a las ventanas. Una solución donde el brazo cae verticalmente y luego se proyecta formando un ángulo que permite sombra y ventilación a la vez.",
     image:
       "https://www.rappachiani.com.ar/img/toldos/brazo-fijo/toldo-brazo-fijo-05.jpg",
-    heroImage:
-      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
-    aboutImage:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1971&auto=format&fit=crop",
+    heroImage: "/images/hero-ninety.jpg",
+    aboutImage: "/images/side-ninety.jpg",
     heroAdjectives: ["GEOMÉTRICA", "RÍGIDO", "FUNCIONAL"],
     advantages: [
       "Permite abrir la ventana hacia afuera y mantener ventilación",
@@ -755,6 +729,63 @@ export const products: Product[] = [
       },
     ],
     gallery: [],
+  },
+  {
+    slug: "palilleria",
+    name: "Toldo Palillería",
+    category: "Toldos",
+    description:
+      "Una estructura de protección solar tipo pérgola caracterizada por una lona que se despliega y recoge sobre guías horizontales. Su distintivo diseño de ondas aporta un toque decorativo, moderno y acogedor a cualquier espacio exterior.",
+    image: "/images/palilleria-main.png",
+    heroImage: "/images/hero-palilleria.jpeg",
+    aboutImage: "/images/palilleria-1.jpeg",
+    heroAdjectives: ["MODULAR", "ROBUSTO", "ELEGANTE"],
+    advantages: [
+      "Modularidad sin límite para cubrir grandes superficies",
+      "Alta resistencia frente a rachas de viento por su estructura fija",
+      "Protección climática superior contra el sol y la lluvia",
+      "Diseño en ondas que aporta gran valor estético y arquitectónico",
+    ],
+    advice:
+      "El toldo de palillería es la solución definitiva para aprovechar al máximo patios, terrazas o jardines durante todo el año. Su instalación entre paredes, en portería o tipo cenador permite adaptarse a cualquier espacio. Recomendamos motorizar el sistema para mayor comodidad y utilizar lonas acrílicas teñidas en masa para máxima durabilidad.",
+    features: [
+      {
+        title: "Guías Horizontales",
+        description:
+          "Sistema de rieles y poleas que permite un deslizamiento suave y ordenado de la lona.",
+        icon: "move-horizontal",
+      },
+      {
+        title: "Estructura Robusta",
+        description:
+          "Perfilería de aluminio de alta resistencia, ideal para instalaciones permanentes.",
+        icon: "anchor",
+      },
+      {
+        title: "Diseño en Ondas",
+        description:
+          "Las varillas transversales (palillos) crean pliegues regulares muy estéticos.",
+        icon: "waves",
+      },
+    ],
+    techSpecs: [
+      {
+        title: "Montaje y Estructura",
+        description:
+          "Puede instalarse entre dos paredes existentes, con dos postes frontales (portería), o de forma independiente con cuatro postes (cenador).",
+      },
+      {
+        title: "Material de Cubierta",
+        description:
+          "Lonas de primera calidad 100% impermeables o microperforadas, soportadas por varillas de aluminio.",
+      },
+    ],
+    gallery: [
+      "/images/palilleria-main.png",
+      "/images/palilleria-2.jpeg",
+      "/images/palilleria-3.jpeg",
+      "/images/hero-palilleria.jpeg",
+    ],
   },
 ];
 
