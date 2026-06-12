@@ -237,7 +237,7 @@ export const products: Product[] = [
       {
         title: "Fascia (Opcional)",
         description:
-          "Puede incluir una fascia o cassette superior de aluminio que oculta el rollo, mejorando la estética y bloqueando más luz.",
+          "Puede incluir una fascia superior de aluminio que oculta el rollo, mejorando la estética y bloqueando más luz.",
       },
     ],
     gallery: [],
@@ -275,7 +275,7 @@ export const products: Product[] = [
         icon: "sliders",
       },
       {
-        title: "Cassette Integrado",
+        title: "Fascia Integrada",
         description:
           "Incluyen de fábrica un cabezal estético de aluminio que cubre el mecanismo.",
         icon: "box",
