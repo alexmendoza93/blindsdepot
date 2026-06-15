@@ -27,13 +27,13 @@ export const products: Product[] = [
     name: "Cortinas Onda Perfecta",
     category: "Cortinas",
     description:
-      "Las cortinas de onda perfecta se caracterizan por su diseño de ondas simétricas y fluidas que aportan modernidad y mucha sofisticación a cualquier espacio. Su mecanismo y la cinta especial aseguran que cada onda mantenga su forma exacta desde el riel hasta el suelo, creando una caída verdaderamente impecable ideal para espacios contemporáneos o ventanales altos.",
+      "Las cortinas de onda perfecta se caracterizan por su diseño de ondas simétricas y fluidas que aportan modernidad y sofisticación a cualquier espacio. Su mecanismo y la cinta especial aseguran que cada onda mantenga su forma desde el riel hasta el suelo, creando una caída verdaderamente impecable ideal para espacios contemporáneos o ventanales altos.",
     image: "/images/onda-perfecta.jpeg",
     heroImage: "/images/hero-perfect.webp",
     aboutImage: "/images/cortina-onda-perfecta-comedor.jpeg",
     heroAdjectives: ["MODERNIDAD", "SIMETRÍA", "ELEGANCIA"],
     advantages: [
-      "Caída impecable y uniforme que siempre mantiene su forma",
+      "Caída impecable y uniforme quemantiene su forma",
       "Ideal para cubrir ventanales grandes y techos altos",
       "Variedad de mecanismos de apertura (manual o motorizado)",
       "Aporta una estética contemporánea de alto nivel",
@@ -70,11 +70,6 @@ export const products: Product[] = [
         title: "Materiales",
         description:
           "Telas premium en variedades traslúcidas, semi-opacas y blackout. Materiales 100% poliéster de fácil mantenimiento o mezclas naturales.",
-      },
-      {
-        title: "Certificaciones",
-        description:
-          "Tratamientos anti-polvo y opciones de ignifugación según el tejido seleccionado. Tejidos eco-friendly disponibles.",
       },
     ],
     gallery: [
@@ -117,7 +112,7 @@ export const products: Product[] = [
       {
         title: "Control Preciso",
         description:
-          "Fácil de deslizar mediante bastón o cordel, manteniendo siempre los pliegues armados.",
+          "Fácil de deslizar mediante bastón o cordel, manteniendo los pliegues armados.",
         icon: "move-horizontal",
       },
     ],
@@ -260,7 +255,7 @@ export const products: Product[] = [
       "Se adapta a cualquier estilo de decoración interior",
     ],
     advice:
-      "Son ideales para áreas sociales como salas o comedores donde se busca diseño y control de luz parcial. No son recomendables para oscuridad total (para ello mejor usar Día y Noche o Black Out directo), ya que entre las franjas siempre filtra un poco de luz.",
+      "Son ideales para áreas sociales como salas o comedores donde se busca diseño y control de luz parcial. No son recomendables para oscuridad total (para ello mejor usar Día y Noche o Black Out directo), ya que entre las franjas filtra un poco de luz.",
     features: [
       {
         title: "Diseño Zebra",
@@ -370,7 +365,7 @@ export const products: Product[] = [
       "Mejora la acústica reduciendo ruidos exteriores",
     ],
     advice:
-      "Aunque la tela sea 100% opaca, siempre hay una pequeña filtración de luz por los bordes laterales (halo de luz). Si deseas oscuridad total (100% real), recomendamos instalarla por fuera del marco (pasando 10cm por lado) y agregar una fascia superior.",
+      "Aunque la tela sea 100% opaca, hay una pequeña filtración de luz por los bordes laterales (halo de luz). Si deseas oscuridad total (100% real), recomendamos instalarla por fuera del marco (pasando 10cm por lado) y agregar una fascia superior.",
     features: [
       {
         title: "Recubrimiento Ahulado",
@@ -423,7 +418,7 @@ export const products: Product[] = [
       "Material extremadamente duradero y lavable",
     ],
     advice:
-      "Cuidado con la privacidad nocturna: por la noche, cuando hay luz adentro y oscuridad afuera, el efecto se invierte y desde afuera se puede ver hacia el interior. En habitaciones, siempre acompáñala de un Black Out (sistema Día y Noche).",
+      "Cuidado con la privacidad nocturna: por la noche, cuando hay luz adentro y oscuridad afuera, el efecto se invierte y desde afuera se puede ver hacia el interior. En habitaciones, acompáñala de un Black Out (sistema Día y Noche).",
     features: [
       {
         title: "Visibilidad Exterior",
@@ -476,7 +471,7 @@ export const products: Product[] = [
       "Al enrollarse totalmente, quedan ocultas dentro de un cabezal discreto",
     ],
     advice:
-      "Es una de las persianas más delicadas debido a sus velos transparentes. No se recomienda en espacios con fuertes corrientes de aire con las ventanas abiertas, ni en lugares donde mascotas puedan rasgar la tela. Su limpieza debe ser siempre en seco o con plumero.",
+      "Es una de las persianas más delicadas debido a sus velos transparentes. No se recomienda en espacios con fuertes corrientes de aire con las ventanas abiertas, ni en lugares donde mascotas puedan rasgar la tela. Su limpieza debe ser en seco o con plumero.",
     features: [
       {
         title: "Láminas Suspendidas",

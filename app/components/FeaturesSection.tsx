@@ -46,7 +46,7 @@ export default function FeaturesSection() {
       id: "manufacturing",
       title: "Fabricación Personalizada",
       description:
-        "Confeccionamos persianas y toldos que garantizan un ajuste perfecto. Cada pieza es confeccionada artesanalmente para integrarse a su proyecto arquitectónico.",
+        "Confeccionamos persianas y toldos que garantizan un ajuste perfecto. Cada pieza es confeccionada artesanalmente para integrarse a su proyecto.",
       icon: (
         <svg
           className="w-8 h-8 text-secondary"
